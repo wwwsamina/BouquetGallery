@@ -240,29 +240,26 @@ div, svg {
     box-sizing: border-box;
 }
 
-.creator-text {
+/* Footer credits styles */
+.footer-credits {
     position: fixed;
-    bottom: 60px;
-    right: 55px; 
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
     color: rgb(216, 172, 186);
-    font-size: 14px;
-    text-align: right;
-  }
-  
-  .watch-link {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    color: white;
+    font-size: 12px;
+    z-index: 100;
+}
+
+.creator-link {
+    color: rgb(216, 172, 186);
     text-decoration: none;
-    font-weight: 500;
-    background: rgba(131, 0, 67, 0.2);
-    padding: 8px 15px;
-    border-radius: 20px;
-    transition: all 0.3s;
-  }
-  
-  .watch-link:hover {
-    background: rgba(0,0,0,0.3);
-    transform: scale(1.05);
-  }
+    transition: color 0.3s ease;
+    margin-left: 5px;
+}
+
+.creator-link:hover {
+    color: #e76b8b;
+    text-decoration: underline;
+}
