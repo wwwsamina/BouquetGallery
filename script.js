@@ -126,13 +126,13 @@ function getImageUrl(i) {
     const imageUrls = [
         'images/img5.jpg',
         'images/img24.jpg',
+        'images/img16.jpg',
+        'images/img24.jpg',
         'images/img5.jpg',
+        'images/img16.jpg',
+        'images/img24.jpg',
         'images/img5.jpg',
-        'images/img5.jpg',
-        'images/img5.jpg',
-        'images/img5.jpg',
-        'images/img5.jpg',
-        'images/img5.jpg',
+        'images/img16.jpg',
         'images/img5.jpg'
     ];
     return imageUrls[i];
