@@ -124,15 +124,15 @@ function getBgPos(i) { //returns the background-position string to create parall
 function getImageUrl(i) {
     // Define separate image URLs here for each image
     const imageUrls = [
-        'images/img1.jpg',
+        'images/img5.jpg',
         'images/img24.jpg',
-        'images/img14.jpg',
-        'images/img27.jpg',
-        'images/img28.jpg',
-        'images/img18.jpg',
-        'images/img16.jpg',
-        'images/img8.jpg',
-        'images/img20.jpg',
+        'images/img5.jpg',
+        'images/img5.jpg',
+        'images/img5.jpg',
+        'images/img5.jpg',
+        'images/img5.jpg',
+        'images/img5.jpg',
+        'images/img5.jpg',
         'images/img5.jpg'
     ];
     return imageUrls[i];
